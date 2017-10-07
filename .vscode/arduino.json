@@ -1,0 +1,6 @@
+{
+    "board": "firebeetle8266:firebeetle8266:firebeetle8266",
+    "port": "COM5",
+    "configuration": "CpuFrequency=80,UploadSpeed=921600,FlashSize=4M3M",
+    "sketch": "LCD1602_DHT11\\test.ino"
+}

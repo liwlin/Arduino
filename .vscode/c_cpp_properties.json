@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\lwl\\AppData\\Local\\Arduino15\\packages\\Intel-Test\\hardware\\arc32\\2.0.1\\cores\\arduino",
+                "C:\\Users\\lwl\\AppData\\Local\\Arduino15\\packages\\firebeetle8266\\hardware\\firebeetle8266\\2.3.0\\cores\\esp8266"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "path": [
+                    "C:\\Users\\lwl\\AppData\\Local\\Arduino15\\packages\\Intel-Test\\hardware\\arc32\\2.0.1\\cores\\arduino",
+                    "${workspaceRoot}",
+                    "C:\\Users\\lwl\\AppData\\Local\\Arduino15\\packages\\firebeetle8266\\hardware\\firebeetle8266\\2.3.0\\cores\\esp8266"
+                ]
+            },
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 3
+}
