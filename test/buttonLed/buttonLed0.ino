@@ -5,9 +5,11 @@
 */
 
 //////////////////////////////*声明变量、常量*//////////////////////////////////
-int led = 10; //定义数字引脚10为led灯   
+int led = 13; //定义数字引脚10为led灯   
 int button = 2;  //定义数字引脚2为按钮
-bool state =false;  //记录灯的亮灭状态
+bool val;  //记录灯的亮灭状态
+int newState;
+int lodState = LOW;
 
 
 //////////////////////////////*初始化*//////////////////////////////////
@@ -15,23 +17,26 @@ void setup()
 {
     pinMode(led,OUTPUT);// 10号引脚为输出模式
     pinMode(button,INPUT); //2号引脚为输入模式
+    digitalWrite(button,HIGH);
     
 }
 
 //////////////////////////////*主函数*//////////////////////////////////
 
 void loop()
-{
-   
-    if(!state && digitalRead(button)) //判断按钮状态，如果是按下，则状态为真（高），如果没有按下则运行下一条语句
+{   
+    val = digitalRead(button);
+    if(val == HIGH) //判断按钮状态，如果是按下，则状态为真（高），如果没有按下则运行下一条语句
     {
-        state = HIGH;
+        digitalWrite(led,LOW);
+         
     }
-    if(state && !digitalRead(button)) //判断按钮状态，如果是按下的，则切换led的亮灭，
+    else  //判断按钮状态，如果是按下的，则切换led的亮灭，
     {
-        digitalWrite(led,!digitalRead(led));   //led灯亮灭切换。
-        state = LOW;   //把state的状态恢复为假（LOW）
+        digitalWrite(led,HIGH);   //led灯亮灭切换。
+                                //把state的状态恢复为假（LOW）
     }
+
 
 }
 

@@ -5,16 +5,17 @@
             "includePath": [
                 "C:\\Users\\lwl\\AppData\\Local\\Arduino15\\packages\\Intel-Test\\hardware\\arc32\\2.0.1\\cores\\arduino",
                 "C:\\Users\\lwl\\AppData\\Local\\Arduino15\\packages\\firebeetle8266\\hardware\\firebeetle8266\\2.3.0\\cores\\esp8266",
-                "D:\\App\\Mixily\\Mixly0.995_WIN\\arduino-1.8.2\\hardware\\arduino\\avr\\cores\\arduino"
+                "D:\\App\\Mixily\\Mixly0.995_WIN\\arduino-1.8.2\\hardware\\arduino\\avr\\cores\\arduino",
+                "${workspaceRoot}"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": false,
                 "path": [
                     "C:\\Users\\lwl\\AppData\\Local\\Arduino15\\packages\\Intel-Test\\hardware\\arc32\\2.0.1\\cores\\arduino",
-                    "${workspaceRoot}",
                     "C:\\Users\\lwl\\AppData\\Local\\Arduino15\\packages\\firebeetle8266\\hardware\\firebeetle8266\\2.3.0\\cores\\esp8266",
                     "D:\\App\\Mixily\\Mixly0.995_WIN\\arduino-1.8.2\\hardware\\arduino\\avr\\cores\\arduino",
-                    "D:\\App\\Mixily\\Mixly0.995_WIN\\arduino-1.8.2\\libraries"
+                    "D:\\App\\Mixily\\Mixly0.995_WIN\\arduino-1.8.2\\libraries",
+                    "${workspaceRoot}"
                 ]
             },
             "intelliSenseMode": "msvc-x64"

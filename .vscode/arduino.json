@@ -1,6 +1,5 @@
 {
-    "board": "arduino:avr:nano",
+    "board": "arduino:avr:uno",
     "port": "COM6",
-    "sketch": "test\\buttonLed\\buttonLed.ino",
-    "configuration": "cpu=atmega328"
+    "sketch": "test\\RFID\\RFID.ino"
 }
