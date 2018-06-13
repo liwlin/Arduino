@@ -15,10 +15,13 @@
                     "C:\\Users\\lwl\\AppData\\Local\\Arduino15\\packages\\firebeetle8266\\hardware\\firebeetle8266\\2.3.0\\cores\\esp8266",
                     "D:\\App\\Mixily\\Mixly0.995_WIN\\arduino-1.8.2\\hardware\\arduino\\avr\\cores\\arduino",
                     "D:\\App\\Mixily\\Mixly0.995_WIN\\arduino-1.8.2\\libraries",
+                    "D:\\App\\Mixily\\Mixly0.995_WIN\\arduino-1.8.2\\lib",
                     "${workspaceRoot}"
                 ]
             },
-            "intelliSenseMode": "msvc-x64"
+            "intelliSenseMode": "msvc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
         }
     ],
     "version": 3

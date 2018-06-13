@@ -1,0 +1,11 @@
+{
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    //arduino设置//
+    
+    "arduino.enableUSBDetection": false,
+    "arduino.additionalUrls": "",  //第三方包额外的URL,您可以在一个字符串中包含多个URL，并使用逗号（，）作为分隔符，或者有一个字符串数组。
+    "arduino.logLevel": "info",  //输出信息
+    "arduino.commandPath": "run-arduino.bat",
+    "arduino.path": "D:\\App\\Mixily\\Mixly0.995_WIN\\arduino-1.8.2",  //arduino文件路径
+    //arduino设置//
+}

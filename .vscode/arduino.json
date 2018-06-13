@@ -1,5 +1,5 @@
 {
     "board": "arduino:avr:uno",
-    "port": "COM6",
-    "sketch": "test\\RFID\\RFID.ino"
+    "port": "COM3",
+    "sketch": "RFID\\RFID.ino"
 }
